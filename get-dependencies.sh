@@ -7,13 +7,14 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	fluidsynth      \
-	gvfs            \
-	lutris          \
-	patchelf        \
-	python-pefile   \
-	python-protobuf \
-	wine            \
+	fluidsynth              \
+	gvfs                    \
+	libayatana-appindicator \
+	lutris                  \
+	patchelf                \
+	python-pefile           \
+	python-protobuf         \
+	wine                    \
 	winetricks
 
 echo "Installing debloated packages..."
