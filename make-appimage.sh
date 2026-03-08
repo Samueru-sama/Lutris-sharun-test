@@ -35,6 +35,8 @@ quick-sharun \
 	/usr/lib/libayatana* \
 	/usr/lib/libavcodec.so*
 
+echo 'PRESSURE_VESSEL_FILESYSTEMS_RO=${SHARUN_DIR}' >> ./AppDir/.env
+
 # alright here the pain starts
 ln -sr ./AppDir/lib/wine/x86_64-unix/*.so* ./AppDir/bin
 
