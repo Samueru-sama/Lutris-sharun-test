@@ -10,6 +10,7 @@ pacman -Syu --noconfirm \
 	fluidsynth      \
 	gvfs            \
 	lutris          \
+	patchelf        \
 	python-pefile   \
 	python-protobuf \
 	wine            \
