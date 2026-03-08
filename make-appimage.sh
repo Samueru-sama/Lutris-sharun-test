@@ -19,17 +19,18 @@ export DEPLOY_SYS_PYTHON=1
 
 # Deploy dependencies
 quick-sharun \
-	/usr/bin/lutris     \
-	/usr/share/lutris   \
-	/usr/bin/wine*      \
-	/usr/lib/wine       \
-	/usr/bin/msidb      \
-	/usr/bin/msiexec    \
-	/usr/bin/notepad    \
-	/usr/bin/regedit    \
-	/usr/bin/regsvr32   \
-	/usr/bin/widl       \
-	/usr/bin/wmc        \
+	/usr/bin/lutris      \
+	/usr/share/lutris    \
+	/usr/bin/wine*       \
+	/usr/lib/wine        \
+	/usr/bin/msidb       \
+	/usr/bin/msiexec     \
+	/usr/bin/notepad     \
+	/usr/bin/regedit     \
+	/usr/bin/regsvr32    \
+	/usr/bin/widl        \
+	/usr/bin/wmc         \
+	/usr/lib/libayatana* \
 	/usr/lib/libavcodec.so*
 
 # alright here the pain starts
