@@ -30,6 +30,7 @@ quick-sharun \
 	/usr/bin/regsvr32    \
 	/usr/bin/widl        \
 	/usr/bin/wmc         \
+	/usr/bin/xrandr      \
 	/usr/lib/libayatana* \
 	/usr/lib/libavcodec.so*
 
